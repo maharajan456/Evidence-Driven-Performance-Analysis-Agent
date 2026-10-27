@@ -1,4 +1,4 @@
-# Project 1 — Evidence-Driven Performance Analysis Agent
+# Project - Evidence-Driven Performance Analysis Agent
 
 ## What it does
 A Python workflow that collects HTTP latency samples, builds a SHA-256 evidence manifest, sends supplied evidence to a local Ollama model (Qwen3 by default), and validates the model's JSON report. Every finding must cite evidence IDs that exist in the manifest. This reduces unsupported claims, but does not prove a diagnosis is causally correct.
